@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: local('Tahoma'),
+	   url('/fonts/tahoma.woff2') format('woff2'), 
+	   url('/fonts/tahoma.woff') format('woff'),
+           url('/fonts/tahoma.ttf') format('ttf'),
+	   url('/fonts/tahoma.eot') format('eot');
+
+}
+
 * {
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
@@ -8,6 +18,4 @@
   padding: 0px;
 
   font-family: Tahoma;
-
-background:black;
 }
