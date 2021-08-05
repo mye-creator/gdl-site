@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'Tahoma';
-  src: local('Tahoma'),
-	   url('/fonts/tahoma.woff2') format('woff2'), 
-	   url('/fonts/tahoma.woff') format('woff'),
-           url('/fonts/tahoma.ttf') format('ttf'),
-	   url('/fonts/tahoma.eot') format('eot');
-
+  font-family: 'chatFont';
+  src: local('chatFont'),
+    url('/fonts/chatFont.woff2') format('woff2'), 
+    url('/fonts/chatFont.woff') format('woff'),
+    url('/fonts/chatFont.ttf') format('ttf'),
+    url('/fonts/chatFont.eot') format('eot');
 }
 
 * {
@@ -14,8 +13,8 @@
   -webkit-user-select: none;
   -o-user-select: none;
   user-select: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 
-  font-family: Tahoma;
+  font-family: chatFont;
 }
