@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'chatFont';
+	src: local('chatFont'),
+	  url('/fonts/chatFont.woff2') format('woff2'), 
+	  url('/fonts/chatFont.woff') format('woff'),
+	  url('/fonts/chatFont.ttf') format('ttf'),
+	  url('/fonts/chatFont.eot') format('eot');
+}
+  
+@font-face {
+	font-family: 'Pusab';
+	src: local('Pusab'),
+	  url('/fonts/pusab.woff2') format('woff2'), 
+	  url('/fonts/pusab.woff') format('woff'),
+	  url('/fonts/pusab.ttf') format('ttf'),
+	  url('/fonts/pusab.eot') format('eot');
+}
+  
+* {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+  
+	font-family: chatFont;
+}
+
+h1 {
+	font-family: Pusab;
+	color: white;
+	font-size: 3em;
+
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  }
+  
+  .middle {
+	display: table-cell;
+	vertical-align: middle;
+  }
+  
+  .inner {
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+	font-size: 150%;
+	/* Whatever width you want */
+  }
+
+body {
+	background-image: url("/img/bg.png");
+}
+
+a {
+	color: rgb(0, 238, 255);
+
+	transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+	color: rgb(0, 255, 191);
+}
