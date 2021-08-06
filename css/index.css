@@ -51,7 +51,7 @@
 
 .button {
   width: 100%;
-  height: 60px;
+  height: 70px;
 }
 
 .centered {
@@ -63,7 +63,7 @@
 
 .centered p {
   font-family: Pusab;
-  font-size: 30px;
+  font-size: 35px;
 
   background: -webkit-linear-gradient(#E9970F, #FBD840);
   -webkit-background-clip: text;
@@ -71,7 +71,7 @@
 
   -webkit-text-stroke-width: 2px;
 
-  
+
   -webkit-text-stroke-color: black;
 }
 
@@ -80,7 +80,7 @@
   position: relative;
   color: white;
 
-  height: 60px;
+  height: 70px;
 
   position: absolute;
   top: 50%;
