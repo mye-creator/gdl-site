@@ -36,22 +36,24 @@
   -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.34);
   box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.34);
 
-  padding: 10px;
+  padding: 1%;
 
   position: relative;
 }
 
 .header .logo {
-  width: 800px;
-  height: 100px;
-  box-shadow: black;
+  width: 45%;
 
   filter: drop-shadow(0 0 7px rgba(0,0,0,0.5))
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .button {
   width: 100%;
-  height: 70px;
+  height: 100%;
 }
 
 .centered {
@@ -61,15 +63,22 @@
   transform: translate(-50%, -50%);
 }
 
-.centered p {
+.centered a {
   font-family: Pusab;
-  font-size: 35px;
+  font-size: 2.3vw;
 
   background: -webkit-linear-gradient(#E9970F, #FBD840);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 0.1vw;
+  -webkit-text-stroke-color: black;
+
+  white-space: nowrap;
+}
+
+.centered i {
+  -webkit-text-stroke-width: 0.08vw;
   -webkit-text-stroke-color: black;
 }
 
@@ -78,10 +87,14 @@
   position: relative;
   color: white;
 
-  height: 70px;
+  height: 50%; /*width: 218px;*/
 
   position: absolute;
   top: 50%;
-  right: 30px;
+  right: 2%;
   transform: translateY(-50%);
+}
+
+.headerbtn2 {
+  right: 16%; /* + 14% */
 }
