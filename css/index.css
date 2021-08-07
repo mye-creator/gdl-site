@@ -41,16 +41,9 @@
   position: relative;
 }
 
-.header {
+.header .logo {
   width: 800px;
   height: 100px;
-  box-shadow: black;
-  filter: drop-shadow(0 0 7px rgba(0,0,0,0.5));
-}
-
-.logo {
-  width: 70%;
-  height: 100%;
   box-shadow: black;
   filter: drop-shadow(0 0 7px rgba(0,0,0,0.5));
 }
