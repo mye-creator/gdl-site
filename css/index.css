@@ -69,6 +69,7 @@
 
   background: -webkit-linear-gradient(#E9970F, #FBD840);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   -webkit-text-stroke-width: 0.1vw;
@@ -94,10 +95,3 @@
   right: 2%;
   transform: translateY(-50%);
 }
-<<<<<<< HEAD
-
-.headerbtn2 {
-  right: 16%; /* + 14% */
-}
-=======
->>>>>>> 0c372090b1cb43cf23684904fbbb3f17aa479cf3
