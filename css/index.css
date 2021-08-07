@@ -95,3 +95,7 @@
   right: 2%;
   transform: translateY(-50%);
 }
+
+.headerbtn2 {
+  right: 16%; /* + 14% */
+}
