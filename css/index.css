@@ -99,3 +99,13 @@
 .headerbtn2 {
   right: 16%; /* + 14% */
 }
+
+.headerbtn3 {
+  right: 30%;
+}
+
+.headerbtn3 a {
+  font-size: 2vw;
+
+  -webkit-text-stroke-width: 0.09vw;
+}
