@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 	<head>
@@ -16,4 +17,29 @@
 			</div>
 		</div>		
 	</body>
+=======
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	<title>Ошибка 404</title>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <meta name="theme-color" content="#BCBCBC">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="og:title" content="Geometry Dash Localisation">
+    <meta property="og:description" content="Description">
+    <meta property="og:image" content="/img/gdl.png">
+    <link rel="shortcut icon" type="icon/png" href="/img/gdl.png">
+</head>
+	<div id="error" style="font-size: 20px;">Страница не найдена. Вы будете переадрессованы на главную страницу через 5 секунд...</div>
+	<script language="JavaScript" type="text/javascript">
+		const error = document.getElementById('error');
+		var secs = 5;
+		setInterval(function(){
+			secs -= 1;
+			error.textContent = "Страница не найдена. Вы будете переадрессованы на главную страницу через " + secs + " секунд...";
+			if (secs == 0)
+				location.href = '/';
+		},1000);
+	</script>
+>>>>>>> 0c372090b1cb43cf23684904fbbb3f17aa479cf3
 </html>
