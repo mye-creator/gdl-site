@@ -178,6 +178,10 @@ body {
   margin-left: 1.5%;
 }
 
+.content a {
+  color: blue;
+}
+
 /* Gradient */
 
 .content, .header {
