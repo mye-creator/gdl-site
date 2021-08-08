@@ -32,10 +32,10 @@ h1 {
 	font-family: Pusab;
 	color: white;
 	font-size: 3em;
-
+	
 	margin: 0;
 
-	-webkit-text-stroke-width: 1.2px;
+	-webkit-text-stroke-width: 3.5px;
 	-webkit-text-stroke-color: black;
 }
 

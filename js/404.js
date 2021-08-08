@@ -20,42 +20,8 @@ function changeCSS(cssFile, cssLinkIndex) {
 }
 
 window.onload = function() {
-	// Getting the args
-
 	if (isFirefox()) {
-		changeCSS("/css/index_firefox.css", 1)
-	}
-
-	let queryString = window.location.search
-	let urlParams = new URLSearchParams(queryString)
-	let page = urlParams.get("p")
-
-	if (page == null || page == "") {
-		loadPage("Главная")
-	} else if (page != null) {
-		loadPage(page)
-	}
-}
-
-function loadPage(name) {
-	try {
-		$.getJSON("/pages.json", function(pages) {
-			let text = ""
-
-			for (const [key, value] of Object.entries(pages[0])) {
-				if (key == name) {
-					text = value
-				}
-			}
-
-			if (text.trim() == "") {
-				//window.location.href = "/404.html"
-			} else {
-				document.getElementById("content").innerHTML = text
-			}
-		})
-	}
-	catch (e) {
-		//
+		console.log("as")
+		changeCSS("/css/404_firefox.css", 1)
 	}
 }
