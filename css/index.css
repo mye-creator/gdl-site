@@ -26,15 +26,26 @@
   padding: 0;
 
   font-family: chatFont;
+
+  box-sizing: border-box;
 }
 
-/* HEADER */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+/* Header */
 
 .header {
-  background-color: rgb(243, 243, 243);
-  -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.34);
-  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.34);
+  background-color: white;
+  -webkit-box-shadow: 0 0 1vw 0.6vw rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0 0 1vw 0.6vw rgba(0, 0, 0, 0.34);
+  box-shadow: 0 0 1vw 0.6vw rgba(0, 0, 0, 0.34);
 
   padding: 1%;
 
@@ -44,7 +55,7 @@
 .logo {
   width: 45%;
 
-  filter: drop-shadow(0 0 7px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 0 0.5vw rgba(0,0,0,0.5));
 }
 
 .header a {
@@ -52,7 +63,7 @@
 }
 
 .button {
-  width: 100%;
+  width: 5;
   height: 100%;
 }
 
@@ -108,4 +119,71 @@
   font-size: 2vw;
 
   -webkit-text-stroke-width: 0.09vw;
+}
+
+/* Content */
+
+.contentwrap {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+
+  background-color: rgb(216, 216, 216);
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  -webkit-box-shadow: 0 1.7vw 1vw 0.6vw rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0 1.7vw 1vw 0.6vw rgba(0, 0, 0, 0.34);
+  box-shadow: 0 1.7vw 1vw 0.6vw rgba(0, 0, 0, 0.34);
+  
+  flex: 1 1 auto;
+
+  z-index: 11111;
+
+  padding-left: 2%;
+  padding-right: 2%;
+
+  background-color: white;
+}
+
+/* Page text */
+
+.content * {
+  padding: 0;
+  margin: 0;
+}
+
+.content h1 {
+  font-family: Pusab;
+  text-align: center;
+  font-size: 4vw;
+
+  color: white;
+  -webkit-text-stroke-width: 0.04vw;
+  -webkit-text-stroke-color: black;
+
+  background: -webkit-linear-gradient(#E9970F, #FBD840);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin: 1%;
+}
+
+.content p {
+  font-size: 1.3vw;
+}
+
+/* Gradient */
+
+.content, .header {
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(216, 216, 216) 100%);
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
