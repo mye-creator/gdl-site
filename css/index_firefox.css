@@ -177,6 +177,10 @@ body {
   font-size: 1.3vw;
 }
 
+.content ul {
+  margin-left: 1.5%;
+}
+
 /* Gradient */
 
 .content, .header {
