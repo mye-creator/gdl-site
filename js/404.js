@@ -21,7 +21,6 @@ function changeCSS(cssFile, cssLinkIndex) {
 
 window.onload = function() {
 	if (isFirefox()) {
-		console.log("as")
 		changeCSS("/css/404_firefox.css", 1)
 	}
 }
