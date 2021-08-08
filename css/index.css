@@ -42,7 +42,6 @@ body {
 /* Header */
 
 .header {
-  background-color: white;
   -webkit-box-shadow: 0 0 1vw 0.6vw rgba(0, 0, 0, 0.34);
   -moz-box-shadow: 0 0 1vw 0.6vw rgba(0, 0, 0, 0.34);
   box-shadow: 0 0 1vw 0.6vw rgba(0, 0, 0, 0.34);
@@ -127,8 +126,6 @@ body {
   display: flex;
   flex-flow: column;
   height: 100%;
-
-  background-color: rgb(216, 216, 216);
 }
 
 .content {
