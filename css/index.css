@@ -280,6 +280,7 @@ body {
 .mcontent {
   margin-left: 2%;
   margin-right: 2%;
+  padding-bottom: 4%;
 }
 
 .mcontent * {
@@ -309,4 +310,12 @@ body {
 
 .mcontent ul {
   margin-left: 5%;
+}
+
+.mcontent a {
+  color: blue;
+}
+
+.mcontent a:visited {
+  color: blue;
 }
