@@ -79,7 +79,7 @@ body {
 }
 
 hr {
-	background-color: #B6B6BB;
+	background-color: #555555;
 	border: 0;
 	height: .1vw;
 }
@@ -111,7 +111,6 @@ hr {
 
 .underline2:hover:after {
 	height: .18vw;
-	bottom: -.12vw;
 }
 
 /* Underline text */
