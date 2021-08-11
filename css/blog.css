@@ -84,6 +84,14 @@ hr {
 	height: .1vw;
 }
 
+.footer {
+	border-top: #333333 1px solid;
+	color: white;
+	font-family: 'Segoe UI';
+	padding: 1.5vw;
+	text-align: center;
+}
+
 .underline2 {
 	text-decoration: none;
 
