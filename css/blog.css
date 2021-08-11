@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Nunito:wght@200&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #222222;
+}
+
+/* Header */
+
+.header {
+	background-color: #262626;
+
+	padding: 3vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+
+.header img {
+	width: 14vw;
+}
+
+/* Page */
+
+.page {
+	padding: 6vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
+
+	color: white;
+}
+
+.page-header {
+	font-family: 'Arial Black';
+	color: #ddd;
+	font-size: 1vw;
+
+	text-transform: uppercase;
+
+	padding: 0;
+
+	width: 36%;
+	float: left;
+}
+
+.page-content {
+	padding-left: 36%;
+}
+
+.page-header-2 {
+	color: #B6B6BB;
+	font-family: 'Franklin Gothic Medium';
+
+	font-size: 1.1vw;
+}
+
+.page-content h1 {
+	font-family: "Nunito";
+	font-size: 2vw;
+}
+
+.page-content p,
+.page-content a,
+.page-content li {
+	font-family: Helvetica;
+	font-size: 1.1vw;
+}
+
+.page-content a {
+	color: white;
+}
+
+hr {
+	background-color: #B6B6BB;
+	border: 0;
+	height: .1vw;
+}
+
+.underline2 {
+	text-decoration: none;
+
+	display: inline-block;
+	padding: .4vw;
+	margin-left: -.4vw;
+	margin-right: -.4vw;
+	padding-top: 0;
+	padding-bottom: .1vw;
+	position: relative;
+}
+
+.underline2:after {    
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: .11vw;
+	left:1%;
+	width: 100%;
+	position: absolute;
+	background: #ddd;
+	transition: all 0.2s ease 0s;
+}
+
+.underline2:hover:after {
+	height: .18vw;
+	bottom: -.12vw;
+}
+
+/* Underline text */
+
+.underline {	
+	display: inline-block;
+	padding: .4vw;
+	margin-left: -.4vw;
+	padding-top: 0;
+	padding-bottom: .1vw;
+	position: relative;
+}
+
+.underline:after {    
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: .11vw;
+	left: 50%;
+	position: absolute;
+	background: #ddd;
+	transition: width 0.2s ease 0s, left 0.2s ease 0s;
+	width: 0;
+}
+
+.underline:hover:after { 
+	width: 100%; 
+	left: 0; 
+}
