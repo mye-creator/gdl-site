@@ -88,6 +88,7 @@ hr {
 	border-top: #333333 1px solid;
 	color: white;
 	font-family: 'Segoe UI';
+	font-size: 1vw;
 	padding: 1.5vw;
 	text-align: center;
 }
