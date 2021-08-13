@@ -110,7 +110,7 @@ hr {
 	bottom: 0;
 	content: "";
 	display: block;
-	height: .11vw;
+	height: .07vw;
 	left:1%;
 	width: 100%;
 	position: absolute;
@@ -119,7 +119,8 @@ hr {
 }
 
 .underline2:hover:after {
-	height: .18vw;
+	height: .2vw;
+	bottom: -.1vw;
 }
 
 /* Underline text */
@@ -128,6 +129,7 @@ hr {
 	display: inline-block;
 	padding: .4vw;
 	margin-left: -.4vw;
+	margin-right: -.4vw;
 	padding-top: 0;
 	padding-bottom: .1vw;
 	position: relative;
