@@ -201,7 +201,7 @@ body {
 /* Gradient */
 
 .content, .header {
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(216, 216, 216) 100%);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(206, 206, 206) 100%);
 
   background-size: cover;
   background-position: center;
